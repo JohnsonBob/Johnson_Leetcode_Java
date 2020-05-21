@@ -74,7 +74,7 @@ public class Solution {
             t4.next = new ListNode(sum % 10);
             t4 = t4.next;
         }
-        if (sum / 10 != 0) t4.next = new ListNode(0);
+        if (sum / 10 != 0) t4.next = new ListNode(1);
         return t3.next;
     }
 
